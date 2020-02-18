@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Page</title>
+    </head>
+    <body>
+        <h1>Contact Page</h1>
+        <form action="submit.php" method="POST">
+            <label for = "first-name">
+                First name
+                <input type="text" name="first-name" placeholder="Enter your first name..">
+            </label>
+            <label for = "last-name">
+                Last name
+                <input type="text" name="last-name" placeholder="Enter your last name..">
+            </label>
+            <label for = "your-email">
+                E-mail Address
+                <input type="email" name="your-email" placeholder="Enter your e-mail address..">
+            </label>
+            <br>
+            <br>
+            <label for = "subscribe">
+                <input type="checkbox" name="subscribe">
+                I'd like to receive e-mail newsletters and I have read the
+                    <a href="#">
+                        Terms of Service
+                    </a>
+            </label>
+            <br>
+            <br>
+            <label for="date-picker">
+                Pick a Date:
+                <input type="date" name="date-picker">
+            </label>
+            <br>
+            <br>
+            <label for="category">
+                Pick a category:
+                <select name="category">
+                    <option value = "horror">Horror</option>
+                    <option value = "documentary">Documentary</option>
+                    <option value = "comedy">Comedy</option>
+                </select>
+            </label>
+            <label>
+                <input type="radio" name="time-of-day" value="morning"> Morning               
+            </label>
+            <label>
+                <input type="radio" name="time-of-day" value="afternnon"> Afternoon
+            </label>
+            <label>
+                <input type="radio" name="time-of-day" value="evening"> Evening
+            </label>
+            <br>
+            <br>
+            <input type="submit" value="Submit Form">
+        </form>
+    </body>
+</html>
